@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mis libros favoritos</title>
+    <link rel="stylesheet" href="li.css">
+</head>
+<body>
+    <header class="header">
+        <h1> Mis libros faboritos </h1>
+        <P class="fra"> Las páginas de un libro guardan secretos que solo un lector descubre.</P>
+        <nav>
+            <div class="nav-buttons">
+                <button onclick="scrollToSection('inicio')">Inicio</button>
+                <button onclick="scrollToSection('peliculas')">libros</button>
+                <button onclick="scrollToSection('contacto')">Contacto</button>
+            </div>
+        </nav>
+        
+    </header>
+
+    <section id="inicio" class="banner">
+        <h2>Bienvenido a mi colección de libros</h2>
+        <p>Haz clic en un libro y descargalo</p>
+    </section>
+
+    <section id="libros" class="galeria">
+        <div class="libro" data-url="https://www.amazon.com/-/es/Las-ventajas-marginado-Stephen-Chbosky/dp/8420403547">
+            <img src="img/VENTAJAS.jpg" alt="Interstellar">
+            <h3>LAS VENTAJAS DE SER UN MARGINADO</h3>
+        <P>Es un libro que hace reflexionar sobre las cosas realmente importantes de la vida.Charlie es un joven queacaba de iniciar 
+            el institutoaunque su experiencia no es buena a la hora de hacer amigos.</P>
+            <button>Ver Tráiler</button>
+        </div>
+        <div class="libro" data-url="https://tienda.sophosenlinea.com/libro/la-chica-invisible_242695">
+            <img src="img/invisible.png" alt="Inception">
+            <h3>LA CHICA INVISIBLE</h3>
+            <P>Aurora Rios es una joven que vive prácticamente aislada del mundo, donde no tiene relación prácticamente con nadie.
+                 Una noche de primavera, su madre no la encuentra en casa y comienza a sosspechar. Al día siguiente, su cuerpo aparece sin vida en el 
+                baño del instituto. </P>
+            <button>Ver Tráiler</button>
+        </div>
+        <div class="libro" data-url="https://www.amazon.es/Nada-Contempor%C3%A1nea-Carmen-Laforet/dp/8423356981">
+            <img src="img/nada.jpg" alt="The Matrix">
+            <h3>NADA</h3>
+            <P>La novela jira a entorno a Andrea, una muchacha que, durante la posguerra española, viaja desde su pequeña localidad a la ciudad de
+                 Barcelona para estudiar filosofía y letras en la universidad. Allí va a vivir con su abuela materna. </P>
+            <button>Ver Tráiler</button>
+        </div>
+        
+        <div class="libro" data-url="https://www.amazon.es/creas-todo-que-piensas-sufrimiento-ebook/dp/B0C564JXLG">
+            <img src="img/no te creas.jpg" alt="The Matrix">
+            <h3>NO TE CREAS TODO LO QUE PIENSAS</h3>
+            <P>Se refiere a la idea a que no todos nuestros pensamientos son verdades absolutas y que a menudo podemos experimentar sufrimiento 
+                emocional debido a patrones del pensamiento negativos o poco saludables. </P>
+            <button>Ver Tráiler</button>
+        </div>
+        <div class="libro" data-url="https://www.amazon.es/H%C3%A1bitos-at%C3%B3micos-Autoconocimiento-James-Clear/dp/8418118032">
+            <img src="img/habitos.jpg" alt="The Matrix">
+            <h3>HÁBITOs ATÓMICOS</h3>
+            <P>Trata de cómo contruir nuevos hábitos y romper con los malos a través de pequeños cambios en la rutina diaria. Se enfoca 
+                en la idea de que mejoras incrementales y constantes pueden llevar a resultados extraordinarios a largo plazo.
+            </P>
+            <button>Ver Tráiler</button>
+        </div>
+        <div class="libro" data-url="https://www.amazon.es/El-campamento-Bestseller-Blue-Jeans/dp/8408254960">
+            <img src="img/campamento.jpg" alt="The Matrix">
+            <h3>EL CAMPAMENTO DE BLUE JEANS</h3>
+            <P>Trata de cómo contruir nuevos hábitos y romper con los malos a través de pequeños cambios en la rutina diaria. Se enfoca 
+                en la idea de que mejoras incrementales y constantes pueden llevar a resultados extraordinarios a largo plazo.
+            </P>
+            <button>Ver Tráiler</button>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <p>¿Quieres recomendarme una película? Escríbeme a <a href="mroseliav11@gmail.com">mroseliav11@gmail.com</a></p>
+    </section>
+
+    <footer class="footer">
+        <p><img src="./img./logo.jpg"width="21px"height="21px">Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="libros.js"></script>
+</body>
+</html>

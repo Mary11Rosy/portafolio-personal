@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mis Películas Favoritas</title>
+  <link rel="stylesheet" href="pelis.css" />
+</head>
+<body>
+  <header>
+    <h1>Mis Películas Favoritas</h1>
+    <p>las películas son el lenguaje del corazón, capaz de unir emociones y contar historias que nos tocan profundamente.</p>
+  </header>
+
+  <nav>
+    <button onclick="filtrarGenero('todos')">Todos</button>
+    <button onclick="filtrarGenero('acción')">Acción</button>
+    <button onclick="filtrarGenero('drama')">Drama</button>
+    <button onclick="filtrarGenero('comedia')">Comedia</button>
+    <button onclick="filtrarGenero('romanticos')">Románticos</button>
+    <button onclick="filtrarGenero('caricaturas')">Caricaturas</button>
+  </nav>
+
+  <main id="peliculas-container"></main>
+
+  <section id="contacto" class="contacto">
+    <p>¿Quieres recomendarme una película? Escríbeme a <a href="mailto:mroseliav11@gmail.com">mroseliav11@gmail.com</a></p>
+  </section>
+
+  <footer class="footer">
+    <p>
+      <img src="./img/logo.jpg" width="21px" height="21px" alt="Logo" />
+       Todos los derechos reservados.
+    </p>
+  </footer>
+
+  <script src="java.js"></script>
+</body>
+</html>
